@@ -12,6 +12,5 @@ for t in range(10):
             break
         heights[max_idx] = heights[max_idx] - 1
         heights[min_idx] = heights[min_idx] + 1
-        # print(max_idx, heights[max_idx], min_idx, heights[min_idx])
 
     print(f'#{t+1} {max(heights) - min(heights)}')
