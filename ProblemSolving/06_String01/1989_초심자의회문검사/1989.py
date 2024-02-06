@@ -5,8 +5,10 @@ sys.stdin = open('input.txt')
 
 T = int(input())
 for t in range(T):
+    ans = 0
     word = input()
     if word == word[::-1]:
-        print(f'#{t+1}', 1)
+        ans = 1
     else:
-        print(f'#{t+1}',0)
+        ans = 0
+    print(f'#{t+1} {ans}')

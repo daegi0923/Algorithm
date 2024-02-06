@@ -13,5 +13,7 @@ for _ in range(T):
     t, N = input().split()
     input_lst = list(input().split())
     input_lst.sort(key=lambda x : dic[x]) # 딕셔너리의 키 값의 밸류를 기준으로 정렬
+    # 밸류는 문자열에 해당하는 정수
+    # ex) dic['ZRO'] = 0
     print(t)
     print(*input_lst)
