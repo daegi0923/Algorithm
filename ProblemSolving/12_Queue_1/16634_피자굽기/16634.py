@@ -13,9 +13,12 @@ for t in range(1, T+1):
     [queue.append([idx, cheese]) for idx, cheese in enumerate(pizzas[:N])]
     idx = N
     while True:
+        queue[0][1] = queue[0][1] // 2
+        queue.rotate(-1)
         if len(queue) == 1:
             break
         if queue[0][1] == 0:
+            print(queue)
             if idx <= M-1:
                 queue[0] = [idx, pizzas[idx]]
                 idx = idx + 1
@@ -25,6 +28,5 @@ for t in range(1, T+1):
                         break
                     queue.popleft()
 
-        queue[0][1] = queue[0][1] //2
-        queue.rotate(-1)
+
     print(f'#{t} {queue[0][0]+1}')

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71094d63-e1f0-4c3f-ab00-b3d2675e73da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving/12_Queue_1/16634_피자굽기/16634.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/12_Queue_1/16634_피자굽기/16634.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,19 @@
     "Python.1222.executor": "Run",
     "Python.1223.executor": "Run",
     "Python.1224.executor": "Run",
+    "Python.1226.executor": "Run",
+    "Python.1227.executor": "Run",
+    "Python.1238.executor": "Run",
     "Python.16522.executor": "Run",
     "Python.16523.executor": "Run",
     "Python.16583.executor": "Run",
+    "Python.16634.executor": "Run",
+    "Python.16655.executor": "Run",
+    "Python.16656.executor": "Run",
     "Python.4408.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_directory_selection": "C:/Users/SSAFY/Desktop/Daegi/Algorithm/ProblemSolving/13_Queue2/16656_미로의거리",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
@@ -60,8 +68,8 @@
       <recent name="C:\Users\SSAFY\Desktop\Daegi\Algorithm\ProblemSolving" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.16583">
-    <configuration name="1223" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.16656">
+    <configuration name="1226" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,11 +78,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1223_계산기2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/1226_미로1" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1223_계산기2/1223.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/1226_미로1/1226.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +91,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1224" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1227" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1224_계산기3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/1227_미로2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1224_계산기3/1224.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/1227_미로2/1227.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16522" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1238" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/10_Stack02_1/16522_Forth" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/1238_Contact" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/10_Stack02_1/16522_Forth/16522.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/1238_Contact/1238.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16583" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16655" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,11 +144,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/16583_토너먼트카드게임" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/16655_노드의거리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/16583_토너먼트카드게임/16583.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/16655_노드의거리/16655.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4408" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16656" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/4408_자기방으로돌아가기" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/16656_미로의거리" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/11_Stack02_2/4408_자기방으로돌아가기/4408.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/13_Queue2/16656_미로의거리/16656.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.16583" />
-        <item itemvalue="Python.1224" />
-        <item itemvalue="Python.4408" />
-        <item itemvalue="Python.1223" />
-        <item itemvalue="Python.16522" />
+        <item itemvalue="Python.16656" />
+        <item itemvalue="Python.16655" />
+        <item itemvalue="Python.1238" />
+        <item itemvalue="Python.1227" />
+        <item itemvalue="Python.1226" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +244,11 @@
           <url>file://$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1224_계산기3/1224.py</url>
           <line>12</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/13_Queue2/16656_미로의거리/16656.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
