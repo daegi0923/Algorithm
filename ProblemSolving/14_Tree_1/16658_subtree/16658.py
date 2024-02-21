@@ -17,6 +17,7 @@ for t in range(1, T+1):
     for i in range(E):
         parent, child = temp[2*i], temp[2*i+1]
         tree[parent].append(child)
+    # print(tree)
     ans = 0
     traversal(N)
     print(f'#{t} {ans}')
