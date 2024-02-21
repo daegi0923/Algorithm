@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="488f7f9f-37f3-4811-a34b-8d1163efa11c" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -11,6 +12,11 @@
       <change afterPath="$PROJECT_DIR$/ETC/A/마법의물뿌리개/input.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ETC/A/마법의물뿌리개/solve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="71094d63-e1f0-4c3f-ab00-b3d2675e73da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProblemSolving/14_Tree_1/16658_subtree/16658.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/14_Tree_1/16658_subtree/16658.py" afterDir="false" />
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
+=======
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
 }</component>
   <component name="ProjectId" id="2bkLBUTPogFBrSfEMxfPeQiVNSn" />
   <component name="ProjectLevelVcsManager">
@@ -31,6 +50,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.solve.executor&quot;: &quot;Run&quot;,
@@ -41,6 +61,54 @@
 }</component>
   <component name="RunManager" selected="Python.solve">
     <configuration name="16910" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.11315.executor": "Run",
+    "Python.1219.executor": "Run",
+    "Python.1222.executor": "Run",
+    "Python.1223.executor": "Run",
+    "Python.1224.executor": "Run",
+    "Python.1226.executor": "Run",
+    "Python.1227.executor": "Run",
+    "Python.1231.executor": "Run",
+    "Python.1232.executor": "Run",
+    "Python.1238.executor": "Run",
+    "Python.16522.executor": "Run",
+    "Python.16523.executor": "Run",
+    "Python.16583.executor": "Run",
+    "Python.16584.executor": "Run",
+    "Python.16634.executor": "Run",
+    "Python.16655.executor": "Run",
+    "Python.16656.executor": "Run",
+    "Python.16658.executor": "Run",
+    "Python.16660.executor": "Run",
+    "Python.16661.executor": "Run",
+    "Python.18542.executor": "Run",
+    "Python.4408.executor": "Run",
+    "Python.4615.executor": "Run",
+    "Python.5688.executor": "Run",
+    "Python.9489.executor": "Run",
+    "Python.solve.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_directory_selection": "C:/Users/SSAFY/Desktop/Daegi/Algorithm/ProblemSolving/13_Queue2/16656_미로의거리",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HgIgnore"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SSAFY\Desktop\Daegi\Algorithm\ProblemSolving\PS02\16584_배열최소합" />
+      <recent name="C:\Users\SSAFY\Desktop\Daegi\Algorithm\ProblemSolving" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.16661">
+    <configuration name="1232" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/05_PS01/16910_원안의점" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/1232_사칙연산" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/05_PS01/16910_원안의점/16910.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/1232_사칙연산/1232.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -62,7 +130,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16933" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16660" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/04_list02_2/16933_이진탐색" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/16660_노드의합" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/04_list02_2/16933_이진탐색/16933.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/16660_노드의합/16660.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5789" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16661" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,11 +162,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/05_PS01/5789_현주의상자바꾸기" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/16661_이진힙" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/05_PS01/5789_현주의상자바꾸기/5789.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/16661_이진힙/16661.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6019_기차사이의파리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="4615" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/05_PS01/6019_기차사이의파리" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/4615_재미있는오셀로게임" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/05_PS01/6019_기차사이의파리/6019_기차사이의파리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/4615_재미있는오셀로게임/4615.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,6 +197,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5688" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/5688_세제곱근을찾아라" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/5688_세제곱근을찾아라/5688.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
     <configuration name="solve" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
@@ -148,15 +240,38 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+=======
+    <configuration default="true" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="powershell.exe" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.solve" />
         <item itemvalue="Python.5789" />
         <item itemvalue="Python.6019_기차사이의파리" />
         <item itemvalue="Python.16910" />
         <item itemvalue="Python.16933" />
+=======
+        <item itemvalue="Python.16661" />
+        <item itemvalue="Python.16660" />
+        <item itemvalue="Python.5688" />
+        <item itemvalue="Python.4615" />
+        <item itemvalue="Python.1232" />
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
       </list>
     </recent_temporary>
   </component>
@@ -177,5 +292,36 @@
       <updated>1706753996507</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1223_계산기2/1223.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1223_계산기2/1223.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1223_계산기2/1223.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/11_Stack02_2/1224_계산기3/1224.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ProblemSolving/13_Queue2/16656_미로의거리/16656.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
