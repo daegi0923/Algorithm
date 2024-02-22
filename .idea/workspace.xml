@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="488f7f9f-37f3-4811-a34b-8d1163efa11c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ETC/A/마법의물뿌리개/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ETC/A/마법의물뿌리개/solve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
     <list default="true" id="71094d63-e1f0-4c3f-ab00-b3d2675e73da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/ProblemSolving/14_Tree_1/16658_subtree/16658.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProblemSolving/14_Tree_1/16658_subtree/16658.py" afterDir="false" />
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
+>>>>>>> efdd434c56259d953360e51a63ec15e8e5ec3808
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+=======
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -25,6 +43,7 @@
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
 }</component>
   <component name="ProjectId" id="2bkLBUTPogFBrSfEMxfPeQiVNSn" />
   <component name="ProjectLevelVcsManager">
@@ -34,6 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.solve.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.solve">
+    <configuration name="16910" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.11315.executor": "Run",
@@ -82,7 +113,56 @@
       <recent name="C:\Users\SSAFY\Desktop\Daegi\Algorithm\ProblemSolving" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.solve (2)">
+=======
+  <component name="RunManager" selected="Python.16661">
+    <configuration name="1232" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/1232_사칙연산" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/1232_사칙연산/1232.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="16660" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
+      <module name="Algorithm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/16660_노드의합" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProblemSolving/15_Tree_2/16660_노드의합/16660.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+>>>>>>> efdd434c56259d953360e51a63ec15e8e5ec3808
     <configuration name="16661" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="ENV_FILES" value="" />
@@ -193,6 +273,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="solve" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ETC/A/마법의물뿌리개" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ETC/A/마법의물뿌리개/solve.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+=======
     <configuration default="true" type="ShConfigurationType">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -206,15 +308,32 @@
       <option name="EXECUTE_IN_TERMINAL" value="true" />
       <option name="EXECUTE_SCRIPT_FILE" value="true" />
       <envs />
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.solve (2)" />
         <item itemvalue="Python.solve2" />
         <item itemvalue="Python.solve (1)" />
         <item itemvalue="Python.solve" />
         <item itemvalue="Python.16661" />
+=======
+<<<<<<< HEAD
+        <item itemvalue="Python.solve" />
+        <item itemvalue="Python.5789" />
+        <item itemvalue="Python.6019_기차사이의파리" />
+        <item itemvalue="Python.16910" />
+        <item itemvalue="Python.16933" />
+=======
+        <item itemvalue="Python.16661" />
+        <item itemvalue="Python.16660" />
+        <item itemvalue="Python.5688" />
+        <item itemvalue="Python.4615" />
+        <item itemvalue="Python.1232" />
+>>>>>>> 6400e4e4abd259030ac96d64be80a6e72d6ede21
+>>>>>>> efdd434c56259d953360e51a63ec15e8e5ec3808
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +347,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="71094d63-e1f0-4c3f-ab00-b3d2675e73da" name="Default Changelist" comment="" />
+      <changelist id="488f7f9f-37f3-4811-a34b-8d1163efa11c" name="Changes" comment="" />
       <created>1706753996507</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
