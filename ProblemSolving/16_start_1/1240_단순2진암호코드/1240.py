@@ -28,6 +28,8 @@ for t in range(1, T+1):
         if pw:
             break
     password = [num_code.get(pw[i*7:(i+1)*7]) for i in range(8)]
+
+    print(password)
     # password = list(map(num_code.get, pw_lst))
     check = 0
     for idx, num in enumerate(password):
@@ -35,6 +37,7 @@ for t in range(1, T+1):
             check = check + num
         else:
             check = check + 3*num
+    print(check)
     if check%10:
         ans = 0
     else:
