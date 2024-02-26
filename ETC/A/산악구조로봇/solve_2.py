@@ -37,6 +37,7 @@ for t in range(1, T+1):
     N = NM[0]
     matrix = [list(map(int,input().split())) for _ in range(N)]
     cost_mat = [[float('inf')]*N for _ in range(N)]
+    visited = [[0] * N for _ in range(N)]
     tunnels  = {}
     min_cost = float('inf')
     pq = []
@@ -49,26 +50,22 @@ for t in range(1, T+1):
         tunnels[(ai-1, aj-1)] = {'end': (bi-1, bj-1), 'cost': c}
     pq.append([0, (0, 0)])
     cnt = 0
+    cost_mat[0][0] = 0
     while pq:
-
         curr = heapq.heappop(pq)
-        # print(curr)
         ci, cj = curr[1]
-
-        if cost_mat[ci][cj] > curr[0]:
-            cost_mat[ci][cj] = curr[0]
-        else:
-            continue
         cnt = cnt + 1
         nexts = getEdge(ci, cj)
+        visited[ci][cj] = 1
         # print(nexts)
         for n in nexts:
             ni, nj = n
             next_cost = cal_cost(ci, cj, ni, nj)
             # print(next_cost)
-            if cost_mat[ci][cj] +next_cost <  cost_mat[ni][nj]:
+            if not visited[ni][nj] and cost_mat[ci][cj] +next_cost <  cost_mat[ni][nj]:
+                cost_mat[ni][nj] = cost_mat[ci][cj] + next_cost
                 heapq.heappush(pq,[cost_mat[ci][cj] + next_cost, n])
-        # [print(*row) for row in cost_mat]
+    # [print(*row) for row in cost_mat]
     # print(cost_mat)
 
     # print(tunnels)
