@@ -38,12 +38,11 @@ for test_case in range(1,T+1):
     while que.qsize():
         crt_dis,crt_col,crt_row = que.get()
         if crt_col == N-1 and crt_row == N-1: #도착지점이면
-            [print(*row) for row in map_dist]
+            # [print(*row) for row in map_dist]
             print(f'#{test_case} {crt_dis}')
             break
-        map_visit[crt_col][crt_row] = True # 방문처리
+        print( crt_col,crt_row)
         for nxt_col,nxt_row,nxt_dst in relations[crt_col][crt_row]: # 다음 갈 col,row 가는데 필요한 거리(기름)
-            if not map_visit[nxt_col][nxt_row]:
-                if map_dist[nxt_col][nxt_row] > crt_dis + nxt_dst: # 지금 거리 + 가는데 필요한 거리가 해당 노드 최소 거리보다 작으면
-                    que.put([crt_dis+nxt_dst,nxt_col,nxt_row])
-                    map_dist[nxt_col][nxt_row] = crt_dis+nxt_dst
+            if map_dist[nxt_col][nxt_row] > crt_dis + nxt_dst: # 지금 거리 + 가는데 필요한 거리가 해당 노드 최소 거리보다 작으면
+                que.put([crt_dis+nxt_dst,nxt_col,nxt_row])
+                map_dist[nxt_col][nxt_row] = crt_dis+nxt_dst
