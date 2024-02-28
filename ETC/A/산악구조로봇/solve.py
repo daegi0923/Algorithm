@@ -1,12 +1,16 @@
 import sys
 sys.stdin = open('input.txt')
 
+
 import heapq
 
 def cal_cost(start_i, start_j, end_i, end_j):
     if (start_i, start_j) in tunnels:
-        if tunnels[(start_i, start_j)]['end'] == (end_i, end_j):
-            return tunnels[(start_i, start_j)]['cost']
+        # print(tunnels[(start_i, start_j)])
+        tunnel_lst = tunnels[(start_i, start_j)]
+        for tunnel in tunnel_lst:
+            if tunnel['end'] == (end_i, end_j):
+                return tunnel['cost']
     s_height = matrix[start_i][start_j]
     e_height = matrix[end_i][end_j]
     if s_height < e_height:
@@ -28,48 +32,60 @@ def getEdge(i, j):
         if 0<=next_i < N and 0 <= next_j < N:
             next_nodes.append((next_i, next_j))
     if (i, j) in tunnels:
-        next_nodes.append(tunnels[(i, j)]['end'])
+        for t_num, tunnel in enumerate(tunnels[(i, j)]):
+            # print(t_num, tunnel)
+            # print(tunnels[(i, j)][0])
+            next_nodes.append(tunnels[(i, j)][t_num]['end'])
     return next_nodes
 T = int(input())
 for t in range(1, T+1):
-    NM = list(map(int, input().split()))
-    N = NM[0]
-    M = 0
-    if len(NM) == 2:
-        M = NM[1]
-    matrix = [0][list(map(int,input().split())) for _ in range(N)]
+    N, M = map(int, input().split())
+#     if t == 13:
+#         print(N, M)
+    matrix = [list(map(int,input().split())) for _ in range(N)]
     cost_mat = [[float('inf')]*N for _ in range(N)]
-    tunnels  = {}
+    tunnels = {}
+    # print(tunnels)
+    min_cost = float('inf')
     pq = []
+#     if t == 13:
+#         [print(*row) for row in matrix]
     for _ in range(M):
         ai, aj, bi, bj, c = map(int,input().split())
-        tunnels[(bi-1, bj-1)] = {'end': (ai-1, aj-1), 'cost': c}
-        tunnels[(ai-1, aj-1)] = {'end': (bi-1, bj-1), 'cost': c}
+        if (ai-1, aj-1) not in tunnels:
+            tunnels[(ai-1, aj-1)] = []
+        tunnels[(ai-1, aj-1)].append({'end': (bi-1, bj-1), 'cost':c})
+        if (bi-1, bj-1) not in tunnels:
+            tunnels[(bi-1, bj-1)] = []
+        tunnels[(bi-1, bj-1)].append({'end': (ai-1, aj-1), 'cost':c})
+    # print(tunnels)
+
+    cost_mat[0][0] = 0
     pq.append([0, (0, 0)])
     cnt = 0
+    # print(tunnels)
     while pq:
 
         curr = heapq.heappop(pq)
         # print(curr)
         ci, cj = curr[1]
-
-        if cost_mat[ci][cj] > curr[0]:
-            cost_mat[ci][cj] = curr[0]
-        else:
-            continue
+        # if cost_mat[ci][cj] > curr[0]:
+        #     cost_mat[ci][cj] = curr[0]
+        # else:
+        #     continue
+        if (ci, cj) == (N-1, N-1):
+            break
+        # print(ci, cj)
         cnt = cnt + 1
         nexts = getEdge(ci, cj)
         # print(nexts)
         for n in nexts:
             ni, nj = n
             next_cost = cal_cost(ci, cj, ni, nj)
-            # print(next_cost)
-            if cost_mat[ci][cj] +next_cost <  cost_mat[ni][nj]:
-                heapq.heappush(pq,[cost_mat[ci][cj] + next_cost, n])
-    # print(cost_mat)
 
-    # print(tunnels)
-    # print(matrix)
-    # print(cnt)
-    [print(*row) for row in cost_mat]
+            # print(next_cost)
+            if cost_mat[ci][cj] + next_cost < cost_mat[ni][nj]:
+                cost_mat[ni][nj] = cost_mat[ci][cj] + next_cost
+                heapq.heappush(pq,[cost_mat[ci][cj] + next_cost, n])
+    # [print(*row) for row in cost_mat]
     print(f'#{t} {cost_mat[N-1][N-1]}')
