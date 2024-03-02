@@ -9,15 +9,17 @@ def dfs(n):
     # print(used)
     if sum(used) == 4 or n == N:
         if sum(used) == 4:
-            stations = [used[s] for s in range(N) if used[s]]
-#             print(stations)
-            score = calScore(stations[0], stations[1], stations[2], stations[3])
-            if score > ans:
-                ans = score
-            score = calScore(stations[0], stations[3], stations[1], stations[2])
-            if score > ans:
-                ans = score
-            # print(score, used)
+            stations = [s for s in range(N) if used[s]]
+            # print(stations)
+            score1 = calScore(stations[0], stations[1], stations[2], stations[3])
+            if score1 > ans:
+                ans = score1
+                # print(11, score1, used)
+
+            score2 = calScore(stations[0], stations[3], stations[1], stations[2])
+            if score2 > ans:
+                ans = score2
+#                 print(22, score2, used)
         return
     for i in range(n, N):
         if i == 0:
@@ -45,4 +47,4 @@ for t in range(1, T+1):
     used = [0] * N
     ans = 0
     dfs(0)
-    print(f'{t} {ans}')
+    print(f'#{t} {ans}')
