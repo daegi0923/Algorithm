@@ -1,6 +1,3 @@
-from re import I
-
-
 n = int(input())
 loc = 0
 num = 0
