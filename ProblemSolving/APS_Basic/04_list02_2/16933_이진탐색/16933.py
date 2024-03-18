@@ -11,7 +11,7 @@ for t in range(T):
     ans = 0
     for num in lstB:
         start = 0
-        end = N -1
+        end = N - 1
         d = 0
         while start <= end:
             mid = (start + end) // 2
