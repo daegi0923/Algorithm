@@ -5,8 +5,8 @@ sys.stdin = open('input.txt')
 def dfs(k, s):
     global ans
     if k == N:
-        if s >= B and s-B < ans:
-            ans = s-B
+        if s >= B and s - B < ans:
+            ans = s - B
         return
     if s < B:
         used[k] = 1
